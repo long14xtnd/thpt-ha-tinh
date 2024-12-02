@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="7.0.10" apprev="20025" start="node2">
+  <panorama id="node2" hideabout="1">
+    <input levelingpitch="-3.7191100000000001" levelbiashidpi="1.000" height="1500" overlap="1" leveltilesize="510" levelingroll="-0.32215199999999999" levelbias="0.400" width="1500" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="1500" predecode="0" width="1500"/>
+      <level preload="0" height="750" predecode="0" width="750"/>
+      <level preload="1" height="375" predecode="1" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="159.6" projection="4" tilt="0" pan="-0.880349"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="330" fov="140" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata source="" latitude="" tags="ảnh render anh hiệp gửi" longitude="" copyright="" title="giữa phòng" heading="0" datetime="" nodeid="node2" description="" comment="" customnodeid="" info="" author=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label borderalpha="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" height="20" wordwrap="1" textalpha="1" textcolor="0x000000" border="1" width="180" background="1" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="floor_hotspot" id="Point01" description="" url="{node1}" tilt="2.55" target="" title="góc nhìn khác" pan="-343.52"/>
+      <hotspot skinid="floor_hotspot" id="Point02" description="" url="{node3}" tilt="-15" target="" title="bên trái" pan="-272.64"/>
+      <hotspot skinid="floor_hotspot" id="Point03" description="" url="{node4}" tilt="-14.39" target="" title="bên phải" pan="-83.23"/>
+      <hotspot skinid="long_ht_image" id="Point04" description="" url="images/NUOI9782.jpg" tilt="-2.22" target="" title="" pan="-132.94"/>
+      <hotspot skinid="long_ht_image" id="Point05" description="" url="images/NUOI9775.jpg" tilt="-1" target="" title="" pan="-235.54"/>
+      <hotspot skinid="long_ht_image" id="Point06" description="" url="images/NUOI9715.jpg" tilt="-11.03" target="" title="" pan="-30.09"/>
+      <hotspot skinid="long_ht_image" id="Point07" description="" url="images/NUOI9700.jpg" tilt="-12.37" target="" title="" pan="-326.24"/>
+      <hotspot skinid="long_ht_image" id="Point08" description="" url="images/4-khai-niem-ve-ki-nang-ra-qdinh.jpg" tilt="5.88" target="" title="" pan="-324.52"/>
+      <hotspot skinid="long_ht_image" id="Point09" description="" url="images/NUOI9704.jpg" tilt="-19.86" target="" title="" pan="-332.96"/>
+      <hotspot skinid="long_ht_image" id="Point10" description="" url="images/NUOI9718.jpg" tilt="-17.54" target="" title="" pan="-37.71"/>
+    </hotspots>
+    <media>
+      <image id="Element01" stretch="1.000" tilt="-8.100" height="1772" roty="-3.300" rotx="-7.880" clickmode="1" handcursor="1" fov="43.240" hidepinned="0" popbackmode="0" pan="176.350" rotz="-0.170" width="3150">
+        <source url="media/9-cau-vong-cam-xuc.jpg"/>
+      </image>
+      <image id="Element02" stretch="0.949" tilt="-5.730" height="6567" roty="-0.450" rotx="-1.040" clickmode="1" handcursor="1" fov="21.510" hidepinned="0" popbackmode="0" pan="-0.080" rotz="-0.480" width="4925">
+        <source url="media/goc-checkin.jpg"/>
+      </image>
+    </media>
+    <transition zoomafterinfov="140" enabled="1" zoomin="0" zoomfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" blendtime="1" delay="none" zoomoutpause="1" zoomspeed="2" zoomafteroutfov="40" zoomout="0"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" zoomcentercursor="0" lockedkeyboard="0" lockedmouse="0" rubberband="0" speedwheel="1" contextprojections="0" invertwheel="1" hideabout="1" sensitivity="8" contextvr="0" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node1" hideabout="1">
+    <input levelingpitch="2.3003" levelbiashidpi="1.000" height="1500" overlap="1" leveltilesize="510" levelingroll="-1.02111" levelbias="0.400" width="1500" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="1500" predecode="0" width="1500"/>
+      <level preload="0" height="750" predecode="0" width="750"/>
+      <level preload="1" height="375" predecode="1" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="156.917" projection="4" tilt="0" pan="1.21953"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="330" fov="140" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata source="" latitude="" tags="ảnh render anh hiệp gửi" longitude="" copyright="" title="góc nhìn khác" heading="0" datetime="" nodeid="node1" description="" comment="" customnodeid="" info="" author=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label borderalpha="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" height="20" wordwrap="1" textalpha="1" textcolor="0x000000" border="1" width="180" background="1" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="floor_hotspot" id="Point01" description="" url="{node2}" tilt="-23.46" target="" title="giữa phòng" pan="-179.47"/>
+      <hotspot skinid="floor_hotspot" id="Point02" description="" url="{node3}" tilt="-14.46" target="" title="bên trái" pan="-222.72"/>
+      <hotspot skinid="floor_hotspot" id="Point03" description="" url="{node4}" tilt="-20.42" target="" title="bên phải" pan="-127.56"/>
+    </hotspots>
+    <media>
+      <image id="Element01" stretch="1.000" tilt="1.310" height="1182" roty="-0.270" rotx="1.920" clickmode="1" handcursor="1" fov="48.250" hidepinned="0" popbackmode="0" pan="-0.020" rotz="-0.080" width="1772">
+        <source url="media/banner.jpg"/>
+      </image>
+    </media>
+    <transition zoomafterinfov="140" enabled="1" zoomin="0" zoomfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" blendtime="1" delay="none" zoomoutpause="1" zoomspeed="2" zoomafteroutfov="40" zoomout="0"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" zoomcentercursor="0" lockedkeyboard="0" lockedmouse="0" rubberband="0" speedwheel="1" contextprojections="0" invertwheel="1" hideabout="1" sensitivity="8" contextvr="0" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input levelingpitch="0" levelbiashidpi="1.000" height="1500" overlap="1" leveltilesize="510" levelingroll="0" levelbias="0.400" width="1500" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="1500" predecode="0" width="1500"/>
+      <level preload="0" height="750" predecode="0" width="750"/>
+      <level preload="1" height="375" predecode="1" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="134.1" projection="4" tilt="0" pan="-36.1243"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="330" fov="140" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata source="" latitude="" tags="ảnh render anh hiệp gửi" longitude="" copyright="" title="bên trái" heading="0" datetime="" nodeid="node3" description="" comment="" customnodeid="" info="" author=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label borderalpha="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" height="20" wordwrap="1" textalpha="1" textcolor="0x000000" border="1" width="180" background="1" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="floor_hotspot" id="Point01" description="" url="{node2}" tilt="-12.46" target="" title="giữa phòng" pan="-95.98"/>
+      <hotspot skinid="floor_hotspot" id="Point02" description="" url="{node1}" tilt="-9.05" target="" title="góc nhìn khác" pan="-43.76"/>
+      <hotspot skinid="long_ht_image" id="Point03" description="" url="images/4-khai-niem-ve-ki-nang-ra-qdinh.jpg" tilt="5.64" target="" title="" pan="-33.07"/>
+      <hotspot skinid="long_ht_image" id="Point04" description="" url="images/NUOI9688.jpg" tilt="-2.85" target="" title="" pan="-32.83"/>
+      <hotspot skinid="long_ht_image" id="Point05" description="" url="images/NUOI9774.jpg" tilt="-3.16" target="" title="" pan="-126.62"/>
+      <hotspot skinid="long_ht_image" id="Point06" description="" url="images/NUOI9690.jpg" tilt="-13.86" target="" title="" pan="-39.92"/>
+      <hotspot skinid="long_ht_image" id="Point07" description="" url="images/NUOI9686.jpg" tilt="-5.99" target="" title="" pan="-54.64"/>
+      <hotspot skinid="long_ht_image" id="Point08" description="" url="images/NUOI9683.jpg" tilt="-10.22" target="" title="" pan="-58.67"/>
+    </hotspots>
+    <media>
+      <image id="Element01" stretch="1.006" tilt="-3.800" height="3544" roty="-8.350" rotx="-0.390" clickmode="1" handcursor="1" fov="14.560" hidepinned="0" popbackmode="0" pan="4.760" rotz="-0.300" width="1575">
+        <source url="media/1-khai-niem-dong-cam.jpg"/>
+      </image>
+      <image id="Element02" stretch="1.040" tilt="-3.350" height="3544" roty="-23.380" rotx="-5.080" clickmode="1" handcursor="1" fov="12.440" hidepinned="0" popbackmode="0" pan="-11.510" rotz="-1.970" width="1575">
+        <source url="media/2-cac-dang-dong-cam.jpg"/>
+      </image>
+      <image id="Element03" stretch="0.941" tilt="-2.710" height="3544" roty="-47.190" rotx="-3.900" clickmode="1" handcursor="1" fov="11.530" hidepinned="0" popbackmode="0" pan="-24.340" rotz="-2.900" width="1575">
+        <source url="media/3-cac-bieu-hien-cua-dong-cam.jpg"/>
+      </image>
+    </media>
+    <transition zoomafterinfov="140" enabled="1" zoomin="0" zoomfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" blendtime="1" delay="none" zoomoutpause="1" zoomspeed="2" zoomafteroutfov="40" zoomout="0"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" zoomcentercursor="0" lockedkeyboard="0" lockedmouse="0" rubberband="0" speedwheel="1" contextprojections="0" invertwheel="1" hideabout="1" sensitivity="8" contextvr="0" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input levelingpitch="2.6102099999999999" levelbiashidpi="1.000" height="1500" overlap="1" leveltilesize="510" levelingroll="-0.84744200000000003" levelbias="0.400" width="1500" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="1500" predecode="0" width="1500"/>
+      <level preload="0" height="750" predecode="0" width="750"/>
+      <level preload="1" height="375" predecode="1" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="123.967" projection="4" tilt="0" pan="12.5134"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="330" fov="140" scaletofit="1" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata source="" latitude="" tags="ảnh render anh hiệp gửi" longitude="" copyright="" title="bên phải" heading="0" datetime="" nodeid="node4" description="" comment="" customnodeid="" info="" author=""/>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label borderalpha="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" height="20" wordwrap="1" textalpha="1" textcolor="0x000000" border="1" width="180" background="1" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="floor_hotspot" id="Point01" description="" url="{node2}" tilt="-12.62" target="" title="giữa phòng" pan="-263.85"/>
+      <hotspot skinid="long_ht_image" id="Point02" description="" url="images/9-moi-quan-he-giua-dong-cam-va-ki-nang-ra-qdinh.jpg" tilt="5.44" target="" title="" pan="-329.99"/>
+      <hotspot skinid="ht_url" id="Point03" description="" url="" tilt="-10.27" target="_blank" title="ban-trung-bay" pan="-33.46"/>
+      <hotspot skinid="long_ht_image" id="Point04" description="" url="images/NUOI9732.jpg" tilt="-3.36" target="" title="" pan="-325.73"/>
+      <hotspot skinid="long_ht_image" id="Point05" description="" url="images/NUOI9735.jpg" tilt="-16.43" target="" title="" pan="-330.67"/>
+      <hotspot skinid="long_ht_image" id="Point06" description="" url="images/NUOI9724.jpg" tilt="-6.43" target="" title="" pan="-305.68"/>
+      <hotspot skinid="long_ht_image" id="Point07" description="" url="images/NUOI9726.jpg" tilt="-11.07" target="" title="" pan="-309.1"/>
+    </hotspots>
+    <media>
+      <image id="Element01" stretch="0.999" tilt="-3.650" height="3544" roty="21.320" rotx="-4.840" clickmode="1" handcursor="1" fov="14.550" hidepinned="0" popbackmode="0" pan="-0.170" rotz="1.500" width="1575">
+        <source url="media/5-cau-truc-ki-nang-ra-quyet-dinh.jpg"/>
+      </image>
+      <image id="Element02" stretch="0.962" tilt="-3.120" height="8504" roty="41.640" rotx="-3.830" clickmode="1" handcursor="1" fov="13.040" hidepinned="0" popbackmode="0" pan="14.130" rotz="2.500" width="3780">
+        <source url="media/6-bieu-hien-ki-nang-ra-quyet-dinh.jpg"/>
+      </image>
+      <image id="Element03" stretch="0.979" tilt="-2.570" height="3544" roty="53.310" rotx="-3.310" clickmode="1" handcursor="1" fov="10.800" hidepinned="0" popbackmode="0" pan="24.170" rotz="2.770" width="1575">
+        <source url="media/7-cac-yeu-to-anh-huong-den-ki-nang-quyet-dinh.jpg"/>
+      </image>
+    </media>
+    <transition zoomafterinfov="140" enabled="1" zoomin="0" zoomfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" blendtime="1" delay="none" zoomoutpause="1" zoomspeed="2" zoomafteroutfov="40" zoomout="0"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" zoomcentercursor="0" lockedkeyboard="0" lockedmouse="0" rubberband="0" speedwheel="1" contextprojections="0" invertwheel="1" hideabout="1" sensitivity="8" contextvr="0" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <masternode>
+    <userdata description="" comment="" tags="" copyright="" title="" author=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
