@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: venis.ggsk
-// Generated 2024-12-02T23:10:36
+// Generated 2024-12-02T23:37:39
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_sounds_splashscreen', 2, false, { ignoreInState: 1  });
@@ -12176,6 +12176,106 @@ alert("The current view has been copied.");
 		me._open_book_popup_top.appendChild(me._khi_nim_ng_cm);
 		me._open_book_popup.appendChild(me._open_book_popup_top);
 		me.divSkin.appendChild(me._open_book_popup);
+		el=me._viettech_watermark=document.createElement('div');
+		els=me._viettech_watermark__img=document.createElement('img');
+		els.className='ggskin ggskin_viettech_watermark';
+		hs=basePath + 'images/viettech_watermark.png';
+		els.setAttribute('src',hs);
+		els.ggNormalSrc=hs;
+		hs ='';
+		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
+		els.setAttribute('style', hs);
+		els.className='ggskin ggskin_image';
+		els['ondragstart']=function() { return false; };
+		player.checkLoaded.push(els);
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="viettech_watermark";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_image ";
+		el.ggType='image';
+		hs ='';
+		hs+='bottom : 0px;';
+		hs+='height : 50px;';
+		hs+='opacity : 0.7;';
+		hs+='position : absolute;';
+		hs+='right : 0px;';
+		hs+='visibility : inherit;';
+		hs+='width : 150px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._viettech_watermark.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._viettech_watermark.logicBlock_alpha = function() {
+			var newLogicStateAlpha;
+			if (
+				((me.elementMouseOver['viettech_watermark'] == true))
+			)
+			{
+				newLogicStateAlpha = 0;
+			}
+			else {
+				newLogicStateAlpha = -1;
+			}
+			if (me._viettech_watermark.ggCurrentLogicStateAlpha != newLogicStateAlpha) {
+				me._viettech_watermark.ggCurrentLogicStateAlpha = newLogicStateAlpha;
+				me._viettech_watermark.style.transition='opacity 0s';
+				if (me._viettech_watermark.ggCurrentLogicStateAlpha == 0) {
+					me._viettech_watermark.style.visibility=me._viettech_watermark.ggVisible?'inherit':'hidden';
+					me._viettech_watermark.style.opacity=1;
+				}
+				else {
+					me._viettech_watermark.style.visibility=me._viettech_watermark.ggVisible?'inherit':'hidden';
+					me._viettech_watermark.style.opacity=0.7;
+				}
+			}
+		}
+		me._viettech_watermark.logicBlock_alpha();
+		me._viettech_watermark.onclick=function (e) {
+			player.openUrl("https:\/\/vn3d.com.vn","_blank");
+		}
+		me._viettech_watermark.onmouseover=function (e) {
+			me.elementMouseOver['viettech_watermark']=true;
+			me._viettech_watermark.logicBlock_alpha();
+		}
+		me._viettech_watermark.onmouseout=function (e) {
+			me.elementMouseOver['viettech_watermark']=false;
+			me._viettech_watermark.logicBlock_alpha();
+		}
+		me._viettech_watermark.ggUpdatePosition=function (useTransition) {
+		}
+		me.divSkin.appendChild(me._viettech_watermark);
+		el=me._code_element_1=document.createElement('div');
+		el.ggId="Code Element 1";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_code ";
+		el.ggType='code';
+		hs ='';
+		hs+='height : 20px;';
+		hs+='left : 722px;';
+		hs+='position : absolute;';
+		hs+='top : 106px;';
+		hs+='visibility : inherit;';
+		hs+='width : 100px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._code_element_1.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._code_element_1.ggUpdatePosition=function (useTransition) {
+		}
+		me.divSkin.appendChild(me._code_element_1);
 		me._background_blur.logicBlock_visible();
 		me._share.logicBlock_position();
 		me._share.logicBlock_visible();
@@ -12303,6 +12403,18 @@ alert("The current view has been copied.");
 		me._s_tay_ho_thn.logicBlock_position();
 		me._s_tay_ho_thn.logicBlock_scaling();
 		me._khi_nim_ng_cm.logicBlock_scaling();
+		me._viettech_watermark.logicBlock_alpha();
+		el = me._code_element_1;
+		javascript:
+document.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.ctrlKey && (e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S') || e.key === 'F12') {
+    e.preventDefault();
+     }
+});
+;
 		player.addListener('activehotspotchanged', function(event) {
 			if (hotspotTemplates.hasOwnProperty('ht_video_youtube')) {
 				for(var i = 0; i < hotspotTemplates['ht_video_youtube'].length; i++) {
@@ -18091,10 +18203,10 @@ alert("The current view has been copied.");
 					((player.getVariableValue('resp_phone') == false))
 				)
 			) {
-				let pdfInterval_59 = setInterval(() => {
+				let pdfInterval_65 = setInterval(() => {
 					if (skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_hs_popup_pdf.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_59);
+						clearInterval(pdfInterval_65);
 					}
 				}, 50);
 			}
@@ -18219,10 +18331,10 @@ alert("The current view has been copied.");
 					((player.getVariableValue('resp_phone') == true))
 				)
 			) {
-				let pdfInterval_60 = setInterval(() => {
+				let pdfInterval_66 = setInterval(() => {
 					if (skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_popup_phone.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_60);
+						clearInterval(pdfInterval_66);
 					}
 				}, 50);
 			}

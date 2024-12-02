@@ -17,7 +17,7 @@
     <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
       <label borderalpha="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" height="20" wordwrap="1" textalpha="1" textcolor="0x000000" border="1" width="180" background="1" backgroundcolor="0xffffff"/>
       <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
-      <hotspot skinid="floor_hotspot" id="Point01" description="" url="{node1}" tilt="2.55" target="" title="góc nhìn khác" pan="-343.52"/>
+      <hotspot skinid="floor_hotspot" id="Point01" description="" url="{node1}" tilt="-9.81" target="" title="góc nhìn khác" pan="-342.15"/>
       <hotspot skinid="floor_hotspot" id="Point02" description="" url="{node3}" tilt="-15" target="" title="bên trái" pan="-272.64"/>
       <hotspot skinid="floor_hotspot" id="Point03" description="" url="{node4}" tilt="-14.39" target="" title="bên phải" pan="-83.23"/>
       <hotspot skinid="long_ht_image" id="Point04" description="" url="images/NUOI9782.jpg" tilt="-2.22" target="" title="" pan="-132.94"/>
