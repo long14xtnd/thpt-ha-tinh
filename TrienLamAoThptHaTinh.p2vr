@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="20025" version="7.0.10">
+<pano2vrconfig version="7.0.9" rev="20024">
   <tour>
     <panorama>
       <projectsettings>
@@ -13,30 +13,413 @@
         <type>auto</type>
         <filename>../ảnh render anh hiệp gửi/render_5.png</filename>
         <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
+        <levelpitch>-3.71911</levelpitch>
+        <levelroll>-0.322152</levelroll>
+        <leveltimestamp>2024-12-02T21:13:33</leveltimestamp>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
+        <pan>
+          <start>-0.880349</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>159.6</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>140</max>
+          <maxfovstereographic>330</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2024-12-02T21:13:36</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <customprops/>
         <capturedatetime>2024-12-02T19:18:00</capturedatetime>
         <tags>ảnh render anh hiệp gửi</tags>
-        <title>giữa phòng</title>
-        <altitude>-10000</altitude>
+        <title>Giữa phòng</title>
+        <altitude>-3048</altitude>
+        <floorplancoordinates>
+          <floorplanid>FloorPlan01</floorplanid>
+          <x>884</x>
+          <y>698</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-342.95</pan>
+            <tilt>-16.19</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point01</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <skinid>arrow_hotspot</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-283.03</pan>
+            <tilt>-16.22</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point02</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
+          <skinid>arrow_hotspot</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-75.2</pan>
+            <tilt>-16.79</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point03</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node4}</url>
+          <skinid>arrow_hotspot</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-359.85</pan>
+            <tilt>0.84</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point11</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>./sliders/goc-checkin/fancybox/index.html</url>
+          <safeurl>index.html</safeurl>
+          <target>_self</target>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>60</width>
+          <height>60</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-333.12</pan>
+            <tilt>-16.57</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point04</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9704.jpg</url>
+          <safeurl>NUOI9704.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-29.99</pan>
+            <tilt>-8.44</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point05</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9715.jpg</url>
+          <safeurl>NUOI9715.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-37.13</pan>
+            <tilt>-14.79</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point06</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9718.jpg</url>
+          <safeurl>NUOI9718.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-326.04</pan>
+            <tilt>-7.85</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point07</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9700.jpg</url>
+          <safeurl>NUOI9700.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <ggloudproject/>
-      <sounds/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>176.35</pan>
+            <tilt>-8.1</tilt>
+          </position>
+          <videorect>
+            <rotx>-7.88</rotx>
+            <roty>-3.3</roty>
+            <rotz>-0.17</rotz>
+            <fov>43.24</fov>
+            <stretch>99.96</stretch>
+            <dimx>3150</dimx>
+            <dimy>1772</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element01</id>
+          <filename>../poster/9-cau-vong-cam-xuc.jpg</filename>
+          <urlsafefilename>9-cau-vong-cam-xuc.jpg</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+        <sound>
+          <position>
+            <pan>-0.04</pan>
+            <tilt>-5.63</tilt>
+          </position>
+          <videorect>
+            <rotx>-1.75</rotx>
+            <roty>0.92</roty>
+            <rotz>-0.29</rotz>
+            <fov>21.19</fov>
+            <stretch>95.5</stretch>
+            <dimx>7387</dimx>
+            <dimy>9850</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element02</id>
+          <filename>../poster/goc checkin.webp</filename>
+          <urlsafefilename>goc checkin.webp</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+        <sound>
+          <position>
+            <pan>-128.36</pan>
+            <tilt>-6.83</tilt>
+          </position>
+          <videorect>
+            <rotx>-10.75</rotx>
+            <roty>51.17</roty>
+            <rotz>9.38</rotz>
+            <fov>35.04</fov>
+            <stretch>98.24</stretch>
+            <dimx>7660</dimx>
+            <dimy>4402</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element03</id>
+          <filename>../sua/NUOI9784.webp</filename>
+          <urlsafefilename>NUOI9784.webp</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+        <sound>
+          <position>
+            <pan>124.98</pan>
+            <tilt>-6.96</tilt>
+          </position>
+          <videorect>
+            <rotx>-10.49</rotx>
+            <roty>-54.86</roty>
+            <rotz>-9.61</rotz>
+            <fov>33.66</fov>
+            <stretch>98.34</stretch>
+            <dimx>8004</dimx>
+            <dimy>4504</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element06</id>
+          <filename>../sua/NUOI9774.webp</filename>
+          <urlsafefilename>NUOI9774.webp</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+      </sounds>
       <id>node2</id>
     </panorama>
     <panorama>
@@ -46,24 +429,56 @@
         <type>auto</type>
         <filename>../ảnh render anh hiệp gửi/render_4.png</filename>
         <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
+        <levelpitch>2.3003</levelpitch>
+        <levelroll>-1.02111</levelroll>
+        <leveltimestamp>2024-12-02T23:09:40</leveltimestamp>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
+        <pan>
+          <start>1.21953</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>156.917</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>140</max>
+          <maxfovstereographic>330</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2024-12-02T23:09:44</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-12-02T19:55:28</capturedatetime>
         <tags>ảnh render anh hiệp gửi</tags>
-        <title>góc nhìn khác</title>
-        <altitude>-10000</altitude>
+        <title>Góc nhìn khác</title>
+        <altitude>-3048</altitude>
+        <customprops/>
+        <floorplancoordinates>
+          <floorplanid>FloorPlan01</floorplanid>
+          <x>1074</x>
+          <y>210</y>
+        </floorplancoordinates>
       </userdata>
       <projectsettings>
-        <userdata/>
+        <userdata>
+          <customprops/>
+        </userdata>
         <translationsavailable>
           <value id="Project">vi-VN</value>
         </translationsavailable>
@@ -75,13 +490,160 @@
         </translationsenabled>
       </projectsettings>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-180.48</pan>
+            <tilt>-25.53</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point01</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <skinid>arrow_hotspot</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-221.81</pan>
+            <tilt>-15.07</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point02</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
+          <skinid>arrow_hotspot</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-127.56</pan>
+            <tilt>-20.42</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point03</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node4}</url>
+          <skinid>arrow_hotspot</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-178.76</pan>
+            <tilt>-47.91</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point04</id>
+          <title>Góc checkin</title>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>./sliders/goc-checkin/fancybox/index.html</url>
+          <safeurl>index.html</safeurl>
+          <target>_self</target>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <ggloudproject/>
-      <sounds/>
-      <animation/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>-0.06</pan>
+            <tilt>3.52</tilt>
+          </position>
+          <videorect>
+            <rotx>0.98</rotx>
+            <roty>-0.02</roty>
+            <rotz>-1.15</rotz>
+            <fov>48.17</fov>
+            <stretch>99.59</stretch>
+            <dimx>1772</dimx>
+            <dimy>1182</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element01</id>
+          <filename>../poster/banner.jpg</filename>
+          <urlsafefilename>banner.jpg</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+      </sounds>
+      <animation>
+        <sequence/>
+      </animation>
     </panorama>
     <panorama>
       <projectsettings>
@@ -98,26 +660,372 @@
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
+        <pan>
+          <start>-36.1243</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>134.1</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>140</max>
+          <maxfovstereographic>330</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2024-12-02T23:09:57</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <customprops/>
         <capturedatetime>2024-12-02T19:30:19</capturedatetime>
         <tags>ảnh render anh hiệp gửi</tags>
-        <title>bên trái</title>
-        <altitude>-10000</altitude>
+        <title>Đôi lời gửi gắm</title>
+        <altitude>-3048</altitude>
+        <floorplancoordinates>
+          <floorplanid>FloorPlan01</floorplanid>
+          <x>467</x>
+          <y>585</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-94.14</pan>
+            <tilt>-8.28</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point01</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <skinid>arrow_hotspot</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-44.88</pan>
+            <tilt>-9.11</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point02</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <skinid>arrow_hotspot</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-33.27</pan>
+            <tilt>9.89</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point03</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../poster/4-khai-niem-ve-ki-nang-ra-qdinh.jpg</url>
+          <safeurl>4-khai-niem-ve-ki-nang-ra-qdinh.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-32.62</pan>
+            <tilt>1.08</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point04</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9688.jpg</url>
+          <safeurl>NUOI9688.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-39.64</pan>
+            <tilt>-10.48</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point06</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9690.jpg</url>
+          <safeurl>NUOI9690.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-284.96</pan>
+            <tilt>-5.78</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point05</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>./sliders/doi-loi-gui-gam/fancybox/index.html</url>
+          <safeurl>index-4.html</safeurl>
+          <target>_self</target>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-54.12</pan>
+            <tilt>-3.64</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point07</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9686.jpg</url>
+          <safeurl>NUOI9686.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-58.72</pan>
+            <tilt>-8.05</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point08</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9692.jpg</url>
+          <safeurl>NUOI9692.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <ggloudproject/>
-      <sounds/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>4.76</pan>
+            <tilt>-3.8</tilt>
+          </position>
+          <videorect>
+            <rotx>-0.39</rotx>
+            <roty>-8.35</roty>
+            <rotz>-0.3</rotz>
+            <fov>14.56</fov>
+            <stretch>100.65</stretch>
+            <dimx>1575</dimx>
+            <dimy>3544</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element01</id>
+          <filename>../poster/1-khai-niem-dong-cam.jpg</filename>
+          <urlsafefilename>1-khai-niem-dong-cam.jpg</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+        <sound>
+          <position>
+            <pan>-11.51</pan>
+            <tilt>-3.35</tilt>
+          </position>
+          <videorect>
+            <rotx>-5.08</rotx>
+            <roty>-23.38</roty>
+            <rotz>-1.97</rotz>
+            <fov>12.44</fov>
+            <stretch>104.02</stretch>
+            <dimx>1575</dimx>
+            <dimy>3544</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element02</id>
+          <filename>../poster/2-cac-dang-dong-cam.jpg</filename>
+          <urlsafefilename>2-cac-dang-dong-cam.jpg</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+        <sound>
+          <position>
+            <pan>-24.34</pan>
+            <tilt>-2.71</tilt>
+          </position>
+          <videorect>
+            <rotx>-3.9</rotx>
+            <roty>-47.19</roty>
+            <rotz>-2.9</rotz>
+            <fov>11.53</fov>
+            <stretch>94.09</stretch>
+            <dimx>1575</dimx>
+            <dimy>3544</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element03</id>
+          <filename>../poster/3-cac-bieu-hien-cua-dong-cam.jpg</filename>
+          <urlsafefilename>3-cac-bieu-hien-cua-dong-cam.jpg</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+      </sounds>
       <id>node3</id>
     </panorama>
     <panorama>
@@ -131,30 +1039,353 @@
         <type>auto</type>
         <filename>../ảnh render anh hiệp gửi/render_7.png</filename>
         <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
+        <levelpitch>2.61021</levelpitch>
+        <levelroll>-0.847442</levelroll>
+        <leveltimestamp>2024-12-02T23:10:30</leveltimestamp>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
+        <pan>
+          <start>12.5134</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>123.967</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>140</max>
+          <maxfovstereographic>330</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2024-12-02T23:10:33</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <customprops/>
         <capturedatetime>2024-12-02T20:10:47</capturedatetime>
         <tags>ảnh render anh hiệp gửi</tags>
-        <title>bên phải</title>
-        <altitude>-10000</altitude>
+        <title>Lời chưa nói</title>
+        <altitude>-3048</altitude>
+        <floorplancoordinates>
+          <floorplanid>FloorPlan01</floorplanid>
+          <x>1311</x>
+          <y>786</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-263.85</pan>
+            <tilt>-12.62</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point01</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <skinid>arrow_hotspot</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-329.53</pan>
+            <tilt>12.96</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point02</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../poster/9-moi-quan-he-giua-dong-cam-va-ki-nang-ra-qdinh.jpg</url>
+          <safeurl>9-moi-quan-he-giua-dong-cam-va-ki-nang-ra-qdinh.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-331.31</pan>
+            <tilt>-8.62</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point05</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9736.jpg</url>
+          <safeurl>NUOI9736.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-305.93</pan>
+            <tilt>-1.31</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point06</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9724.jpg</url>
+          <safeurl>NUOI9724.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-310.5</pan>
+            <tilt>-6.07</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point07</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9726.jpg</url>
+          <safeurl>NUOI9726.jpg</safeurl>
+          <skinid>ht_image</skinid>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-322.95</pan>
+            <tilt>-4.97</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point04</id>
+          <title>Lời tâm sự</title>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>./sliders/loi-tam-su/fancybox/index.html</url>
+          <safeurl>index-3.html</safeurl>
+          <target>_self</target>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-30.19</pan>
+            <tilt>-4.55</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point03</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>./sliders/ban-trung-bay/fancybox/index.html</url>
+          <safeurl>index-6.html</safeurl>
+          <target>_self</target>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <ggloudproject/>
-      <sounds/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>-0.18</pan>
+            <tilt>-0.86</tilt>
+          </position>
+          <videorect>
+            <rotx>-2.72</rotx>
+            <roty>23.8</roty>
+            <rotz>0.1</rotz>
+            <fov>14.84</fov>
+            <stretch>98.05</stretch>
+            <dimx>1575</dimx>
+            <dimy>3544</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element01</id>
+          <filename>../poster/5-cau-truc-ki-nang-ra-quyet-dinh.jpg</filename>
+          <urlsafefilename>5-cau-truc-ki-nang-ra-quyet-dinh.jpg</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+        <sound>
+          <position>
+            <pan>14.04</pan>
+            <tilt>-0.95</tilt>
+          </position>
+          <videorect>
+            <rotx>-5.31</rotx>
+            <roty>40.46</roty>
+            <rotz>1.83</rotz>
+            <fov>13.01</fov>
+            <stretch>96.48</stretch>
+            <dimx>3780</dimx>
+            <dimy>8504</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element02</id>
+          <filename>../poster/6-bieu-hien-ki-nang-ra-quyet-dinh.jpg</filename>
+          <urlsafefilename>6-bieu-hien-ki-nang-ra-quyet-dinh.jpg</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+        <sound>
+          <position>
+            <pan>24.07</pan>
+            <tilt>-0.69</tilt>
+          </position>
+          <videorect>
+            <rotx>-4.32</rotx>
+            <roty>52.73</roty>
+            <rotz>1.68</rotz>
+            <fov>10.45</fov>
+            <stretch>101.08</stretch>
+            <dimx>1575</dimx>
+            <dimy>3544</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element03</id>
+          <filename>../poster/7-cac-yeu-to-anh-huong-den-ki-nang-quyet-dinh.jpg</filename>
+          <urlsafefilename>7-cac-yeu-to-anh-huong-den-ki-nang-quyet-dinh.jpg</urlsafefilename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>popout</clickmode>
+          <popbackmode>stop</popbackmode>
+          <hidepinned>0</hidepinned>
+          <handcursor>1</handcursor>
+        </sound>
+      </sounds>
       <id>node4</id>
     </panorama>
   </tour>
@@ -176,6 +1407,28 @@
       <userdata>
         <customprops/>
       </userdata>
+      <backgroundsound>
+        <position>
+          <pan>-1</pan>
+          <tilt>-1</tilt>
+        </position>
+        <videorect/>
+        <type>audio</type>
+        <id>_background</id>
+        <filename>..\nhacnen.mp3</filename>
+        <urlsafefilename>nhacnen.mp3</urlsafefilename>
+        <mode>0</mode>
+        <nodechangekeep>1</nodechangekeep>
+        <locked>0</locked>
+        <pansize>10</pansize>
+        <tiltsize>10</tiltsize>
+        <fieldsize>90</fieldsize>
+        <ambientlevel>0</ambientlevel>
+        <startmutedmobile>0</startmutedmobile>
+        <level>1</level>
+        <loop>1</loop>
+        <copyfile>1</copyfile>
+      </backgroundsound>
       <translationsavailable>
         <value id="Project">vi-VN</value>
       </translationsavailable>
@@ -186,15 +1439,32 @@
         <value id="Project">true</value>
       </translationsenabled>
     </projectsettings>
-    <floorplans/>
+    <floorplans>
+      <floorplan>
+        <id>FloorPlan01</id>
+        <floorplanfilename>../ban do tang/matcat_2.png</floorplanfilename>
+        <type>file</type>
+        <lastmodified>2024-12-04T13:51:57</lastmodified>
+        <floorplanoutputformat>0</floorplanoutputformat>
+        <floorplanoutputbackgroundcolor>#ffffff,0</floorplanoutputbackgroundcolor>
+        <floorplanoutputquality>100</floorplanoutputquality>
+      </floorplan>
+    </floorplans>
     <hotspots/>
     <output>
       <placeidcache>{"entries":[]}</placeidcache>
       <htmlcss>
         <html>
-          <values/>
           <enabled>1</enabled>
           <filename>../trien-lam-ao-thpt-ha-tinh-vr360/index.html</filename>
+          <values>
+            <value id="cachebust">true</value>
+            <value id="css"/>
+            <value id="fitcover">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">true</value>
+          </values>
         </html>
         <facequality/>
         <transition>
@@ -207,10 +1477,18 @@
         <flyintransition/>
         <hotspottext/>
         <hotspotstyle/>
-        <webvr/>
+        <webvr>
+          <enabled>1</enabled>
+        </webvr>
         <tilesize>1500</tilesize>
         <filename>../trien-lam-ao-thpt-ha-tinh-vr360/pano.xml</filename>
-        <skinfile>$d/venis.ggsk</skinfile>
+        <skinfile>$d/feather_orb.ggsk</skinfile>
+        <fullscreencontext>0</fullscreencontext>
+        <vrcontext>0</vrcontext>
+        <hideaboutbox>1</hideaboutbox>
+        <invertwheel>1</invertwheel>
+        <zoomcentercursor>0</zoomcentercursor>
+        <vrskinfile>feather_vr.ggsk</vrskinfile>
       </htmlcss>
     </output>
     <streetview/>
@@ -219,7 +1497,6 @@
     <sounds/>
     <animation>
       <title>Animation01</title>
-      <sequence/>
     </animation>
   </panorama>
 </pano2vrconfig>
