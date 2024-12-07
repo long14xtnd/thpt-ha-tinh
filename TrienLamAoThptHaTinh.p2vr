@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig version="7.0.9" rev="20024">
+<pano2vrconfig rev="20024" version="7.0.9">
   <tour>
     <panorama>
       <projectsettings>
@@ -314,7 +314,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
         <sound>
@@ -348,7 +348,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
         <sound>
@@ -382,7 +382,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
         <sound>
@@ -416,7 +416,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
       </sounds>
@@ -637,7 +637,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
       </sounds>
@@ -954,7 +954,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
         <sound>
@@ -988,7 +988,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
         <sound>
@@ -1022,7 +1022,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
       </sounds>
@@ -1314,7 +1314,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
         <sound>
@@ -1348,7 +1348,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
         <sound>
@@ -1382,7 +1382,7 @@
           <copyfile>1</copyfile>
           <clickmode>popout</clickmode>
           <popbackmode>stop</popbackmode>
-          <hidepinned>0</hidepinned>
+          <hidepinned>1</hidepinned>
           <handcursor>1</handcursor>
         </sound>
       </sounds>
