@@ -29,7 +29,7 @@
       <hotspot description="" url="images/NUOI9700.jpg" id="Point07" tilt="-7.85" target="" skinid="ht_image" title="" pan="-326.04"/>
     </hotspots>
     <media>
-      <image rotz="-0.180" hidepinned="0" id="Element01" width="1050" height="591" handcursor="0" roty="-3.980" popbackmode="0" tilt="-8.030" fov="43.000" clickmode="4" rotx="-6.400" stretch="1.005" pan="176.330">
+      <image rotz="-0.180" hidepinned="0" id="Element01" width="1050" height="591" handcursor="0" roty="-3.980" popbackmode="0" tilt="-8.030" fov="43.000" clickmode="1" rotx="-6.400" stretch="1.005" pan="176.330">
         <source url="media/9-cau-vong-cam-xuc.webp"/>
       </image>
       <image rotz="-0.420" hidepinned="0" id="Element02" width="7387" height="9850" handcursor="1" roty="0.830" popbackmode="0" tilt="-5.500" fov="21.220" clickmode="1" rotx="-2.850" stretch="0.934" pan="-0.010">
@@ -75,7 +75,7 @@
       <hotspot description="" url="./sliders/goc-checkin/fancybox/index.html" id="Point04" tilt="-47.91" target="_self" skinid="ht_url" title="Góc checkin" pan="-178.76"/>
     </hotspots>
     <media>
-      <image rotz="-1.080" hidepinned="0" id="Element01" width="591" height="394" handcursor="1" roty="0.930" popbackmode="0" tilt="3.530" fov="48.490" clickmode="4" rotx="1.610" stretch="0.991" pan="0.300">
+      <image rotz="-1.080" hidepinned="0" id="Element01" width="591" height="394" handcursor="1" roty="0.930" popbackmode="0" tilt="3.530" fov="48.490" clickmode="1" rotx="1.610" stretch="0.991" pan="0.300">
         <source url="media/banner.webp"/>
       </image>
       <sound field="90.000" startmutedmobile="0" id="_background" pansize="10.000" ambientlevel="0.000" mode="0" level="1.000" tiltsize="10.000" tilt="-1.000" loop="1" nodechangekeep="1" pan="-1.000">
