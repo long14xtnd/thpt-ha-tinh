@@ -22,25 +22,16 @@
       <hotspot description="" url="{node1}" id="Point01" tilt="-16.19" target="" skinid="arrow_hotspot" title="Góc nhìn khác" pan="-342.95"/>
       <hotspot description="" url="{node3}" id="Point02" tilt="-16.22" target="" skinid="arrow_hotspot" title="Đôi lời gửi gắm" pan="-283.03"/>
       <hotspot description="" url="{node4}" id="Point03" tilt="-16.79" target="" skinid="arrow_hotspot" title="Lời chưa nói" pan="-75.2"/>
-      <hotspot description="" url="./sliders/goc-checkin/fancybox/index.html" id="Point11" tilt="0.84" target="_self" skinid="ht_url" title="Góc checkin" pan="-359.85"/>
+      <hotspot description="" url="./sliders/goc-checkin/fancybox/index.html" id="Point11" tilt="-3.56" target="_self" skinid="ht_url" title="Góc checkin" pan="-360.03"/>
       <hotspot description="" url="images/NUOI9704.jpg" id="Point04" tilt="-16.57" target="" skinid="ht_image" title="" pan="-333.12"/>
       <hotspot description="" url="images/NUOI9715.jpg" id="Point05" tilt="-8.44" target="" skinid="ht_image" title="" pan="-29.99"/>
       <hotspot description="" url="images/NUOI9718.jpg" id="Point06" tilt="-14.79" target="" skinid="ht_image" title="" pan="-37.13"/>
       <hotspot description="" url="images/NUOI9700.jpg" id="Point07" tilt="-7.85" target="" skinid="ht_image" title="" pan="-326.04"/>
+      <hotspot description="" url="images/NUOI9774.jpg" id="Point08" tilt="6.05" target="" skinid="ht_image" title="" pan="-129.45"/>
+      <hotspot description="" url="images/9-cau-vong-cam-xuc.jpg" id="Point09" tilt="7.38" target="" skinid="ht_image" title="" pan="-182.73"/>
+      <hotspot description="" url="images/NUOI9784.jpg" id="Point10" tilt="5.27" target="" skinid="ht_image" title="" pan="-233.89"/>
     </hotspots>
     <media>
-      <image rotz="-0.180" hidepinned="0" id="Element01" width="1050" height="591" handcursor="0" roty="-3.980" popbackmode="0" tilt="-8.030" fov="43.000" clickmode="1" rotx="-6.400" stretch="1.005" pan="176.330">
-        <source url="media/9-cau-vong-cam-xuc.webp"/>
-      </image>
-      <image rotz="-0.420" hidepinned="0" id="Element02" width="7387" height="9850" handcursor="1" roty="0.830" popbackmode="0" tilt="-5.500" fov="21.220" clickmode="1" rotx="-2.850" stretch="0.934" pan="-0.010">
-        <source url="media/goc checkin.webp"/>
-      </image>
-      <image rotz="-9.250" hidepinned="0" id="Element03" width="8004" height="4504" handcursor="1" roty="-54.820" popbackmode="0" tilt="-6.970" fov="33.760" clickmode="1" rotx="-10.380" stretch="0.982" pan="124.950">
-        <source url="media/NUOI9774.webp"/>
-      </image>
-      <image rotz="9.280" hidepinned="0" id="Element04" width="7660" height="4402" handcursor="1" roty="51.540" popbackmode="0" tilt="-6.880" fov="35.230" clickmode="1" rotx="-10.040" stretch="0.976" pan="-128.420">
-        <source url="media/NUOI9784.webp"/>
-      </image>
       <sound field="90.000" startmutedmobile="0" id="_background" pansize="10.000" ambientlevel="0.000" mode="0" level="1.000" tiltsize="10.000" tilt="-1.000" loop="1" nodechangekeep="1" pan="-1.000">
         <source url="media/nhacnen.mp3"/>
       </sound>
@@ -73,11 +64,9 @@
       <hotspot description="" url="{node3}" id="Point02" tilt="-15.07" target="" skinid="arrow_hotspot" title="Đôi lời gửi gắm" pan="-221.81"/>
       <hotspot description="" url="{node4}" id="Point03" tilt="-20.42" target="" skinid="arrow_hotspot" title="Lời chưa nói" pan="-127.56"/>
       <hotspot description="" url="./sliders/goc-checkin/fancybox/index.html" id="Point04" tilt="-47.91" target="_self" skinid="ht_url" title="Góc checkin" pan="-178.76"/>
+      <hotspot description="" url="images/banner.jpg" id="Point05" tilt="22.67" target="" skinid="ht_image" title="" pan="-355.75"/>
     </hotspots>
     <media>
-      <image rotz="-1.080" hidepinned="0" id="Element01" width="591" height="394" handcursor="1" roty="0.930" popbackmode="0" tilt="3.530" fov="48.490" clickmode="1" rotx="1.610" stretch="0.991" pan="0.300">
-        <source url="media/banner.webp"/>
-      </image>
       <sound field="90.000" startmutedmobile="0" id="_background" pansize="10.000" ambientlevel="0.000" mode="0" level="1.000" tiltsize="10.000" tilt="-1.000" loop="1" nodechangekeep="1" pan="-1.000">
         <source url="media/nhacnen.mp3"/>
       </sound>
@@ -108,23 +97,17 @@
       <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1"/>
       <hotspot description="" url="{node2}" id="Point01" tilt="-8.28" target="" skinid="arrow_hotspot" title="Giữa phòng" pan="-94.14"/>
       <hotspot description="" url="{node1}" id="Point02" tilt="-9.11" target="" skinid="arrow_hotspot" title="Góc nhìn khác" pan="-44.88"/>
-      <hotspot description="" url="images/4-khai-niem-ve-ki-nang-ra-qdinh.jpg" id="Point03" tilt="9.89" target="" skinid="ht_image" title="" pan="-33.27"/>
+      <hotspot description="" url="images/4-khai-niem-ve-ki-nang-ra-qdinh.jpg" id="Point03" tilt="9.15" target="" skinid="ht_image" title="" pan="-33.09"/>
       <hotspot description="" url="images/NUOI9688.jpg" id="Point04" tilt="1.08" target="" skinid="ht_image" title="" pan="-32.62"/>
       <hotspot description="" url="images/NUOI9690.jpg" id="Point06" tilt="-10.48" target="" skinid="ht_image" title="" pan="-39.64"/>
       <hotspot description="" url="./sliders/doi-loi-gui-gam/fancybox/index.html" id="Point05" tilt="-5.78" target="_self" skinid="ht_url" title="" pan="-284.96"/>
       <hotspot description="" url="images/NUOI9686.jpg" id="Point07" tilt="-3.64" target="" skinid="ht_image" title="" pan="-54.12"/>
       <hotspot description="" url="images/NUOI9692.jpg" id="Point08" tilt="-8.05" target="" skinid="ht_image" title="" pan="-58.72"/>
+      <hotspot description="" url="images/1-khai-niem-dong-cam.jpg" id="Point09" tilt="14.1" target="" skinid="ht_image" title="" pan="-354.71"/>
+      <hotspot description="" url="images/2-cac-dang-dong-cam.jpg" id="Point10" tilt="12.36" target="" skinid="ht_image" title="" pan="-11.17"/>
+      <hotspot description="" url="images/3-cac-bieu-hien-cua-dong-cam.jpg" id="Point11" tilt="11.1" target="" skinid="ht_image" title="" pan="-24.07"/>
     </hotspots>
     <media>
-      <image rotz="-0.430" hidepinned="0" id="Element01" width="525" height="1181" handcursor="1" roty="-9.170" popbackmode="0" tilt="-3.520" fov="14.170" clickmode="1" rotx="-2.150" stretch="0.999" pan="4.770">
-        <source url="media/1-khai-niem-dong-cam.webp"/>
-      </image>
-      <image rotz="-1.700" hidepinned="0" id="Element02" width="525" height="1181" handcursor="1" roty="-27.530" popbackmode="0" tilt="-3.290" fov="12.870" clickmode="1" rotx="-3.460" stretch="0.995" pan="-11.550">
-        <source url="media/2-cac-dang-dong-cam.webp"/>
-      </image>
-      <image rotz="-2.150" hidepinned="0" id="Element03" width="525" height="1181" handcursor="1" roty="-43.920" popbackmode="0" tilt="-2.680" fov="10.780" clickmode="1" rotx="-2.960" stretch="1.002" pan="-24.270">
-        <source url="media/3-cac-bieu-hien-cua-dong-cam.webp"/>
-      </image>
       <sound field="90.000" startmutedmobile="0" id="_background" pansize="10.000" ambientlevel="0.000" mode="0" level="1.000" tiltsize="10.000" tilt="-1.000" loop="1" nodechangekeep="1" pan="-1.000">
         <source url="media/nhacnen.mp3"/>
       </sound>
@@ -155,22 +138,16 @@
       <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1"/>
       <hotspot description="" url="{node2}" id="Point01" tilt="-12.62" target="" skinid="arrow_hotspot" title="Giữa phòng" pan="-263.85"/>
       <hotspot description="" url="images/9-moi-quan-he-giua-dong-cam-va-ki-nang-ra-qdinh.jpg" id="Point02" tilt="12.96" target="" skinid="ht_image" title="" pan="-329.53"/>
-      <hotspot description="" url="images/NUOI9736.jpg" id="Point05" tilt="-8.62" target="" skinid="ht_image" title="" pan="-331.31"/>
+      <hotspot description="" url="images/NUOI9736.jpg" id="Point05" tilt="-10.45" target="" skinid="ht_image" title="" pan="-331.02"/>
       <hotspot description="" url="images/NUOI9724.jpg" id="Point06" tilt="-1.31" target="" skinid="ht_image" title="" pan="-305.93"/>
       <hotspot description="" url="images/NUOI9726.jpg" id="Point07" tilt="-6.07" target="" skinid="ht_image" title="" pan="-310.5"/>
-      <hotspot description="" url="./sliders/loi-tam-su/fancybox/index.html" id="Point04" tilt="-4.97" target="_self" skinid="ht_url" title="Lời chưa nói" pan="-322.95"/>
+      <hotspot description="" url="./sliders/loi-chua-noi/fancybox/index.html" id="Point04" tilt="-4.97" target="_self" skinid="ht_url" title="Lời chưa nói" pan="-322.95"/>
       <hotspot description="" url="./sliders/ban-trung-bay/fancybox/index.html" id="Point03" tilt="-4.55" target="_self" skinid="ht_url" title="" pan="-30.19"/>
+      <hotspot description="" url="images/5-cau-truc-ki-nang-ra-quyet-dinh.jpg" id="Point08" tilt="17.16" target="" skinid="ht_image" title="" pan="-359.77"/>
+      <hotspot description="" url="images/6-bieu-hien-ki-nang-ra-quyet-dinh.jpg" id="Point09" tilt="15.38" target="" skinid="ht_image" title="" pan="-345.33"/>
+      <hotspot description="" url="images/7-cac-yeu-to-anh-huong-den-ki-nang-quyet-dinh.jpg" id="Point10" tilt="12.96" target="" skinid="ht_image" title="" pan="-335.06"/>
     </hotspots>
     <media>
-      <image rotz="0.830" hidepinned="0" id="Element01" width="525" height="1181" handcursor="1" roty="23.120" popbackmode="0" tilt="-1.070" fov="14.620" clickmode="1" rotx="-4.290" stretch="0.984" pan="-0.250">
-        <source url="media/5-cau-truc-ki-nang-ra-quyet-dinh.webp"/>
-      </image>
-      <image rotz="0.210" hidepinned="0" id="Element02" width="420" height="945" handcursor="1" roty="37.880" popbackmode="0" tilt="-0.900" fov="12.430" clickmode="1" rotx="-2.850" stretch="1.005" pan="14.010">
-        <source url="media/6-bieu-hien-ki-nang-ra-quyet-dinh.webp"/>
-      </image>
-      <image rotz="1.540" hidepinned="0" id="Element03" width="525" height="1181" handcursor="1" roty="54.040" popbackmode="0" tilt="-0.650" fov="10.750" clickmode="1" rotx="-3.900" stretch="0.979" pan="24.120">
-        <source url="media/7-cac-yeu-to-anh-huong-den-ki-nang-quyet-dinh.webp"/>
-      </image>
       <sound field="90.000" startmutedmobile="0" id="_background" pansize="10.000" ambientlevel="0.000" mode="0" level="1.000" tiltsize="10.000" tilt="-1.000" loop="1" nodechangekeep="1" pan="-1.000">
         <source url="media/nhacnen.mp3"/>
       </sound>

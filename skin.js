@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.9/20024
 // Filename: feather_orb.ggsk
-// Generated 2024-12-09T11:44:06
+// Generated 2024-12-09T16:47:56
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_sounds_splashscreen', 2, false, { ignoreInState: 1  });
@@ -17032,6 +17032,31 @@ alert("The current view has been copied.");
 		me._mobile_image_intro.appendChild(me._mobile_start_tour);
 		me._intro.appendChild(me._mobile_image_intro);
 		me.divSkin.appendChild(me._intro);
+		el=me._code_element_1=document.createElement('div');
+		el.ggId="Code Element 1";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_code ";
+		el.ggType='code';
+		hs ='';
+		hs+='height : 20px;';
+		hs+='left : 612px;';
+		hs+='position : absolute;';
+		hs+='top : 43px;';
+		hs+='visibility : inherit;';
+		hs+='width : 100px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._code_element_1.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._code_element_1.ggUpdatePosition=function (useTransition) {
+		}
+		me.divSkin.appendChild(me._code_element_1);
 		me._menu_left.logicBlock_visible();
 		me._menu_left_slider.logicBlock_position();
 		me._menu_left_slider.logicBlock_visible();
@@ -17520,6 +17545,16 @@ alert("The current view has been copied.");
 		me._water_mark.logicBlock_alpha();
 		me._default_image_intro.logicBlock_visible();
 		me._mobile_image_intro.logicBlock_visible();
+		el = me._code_element_1;
+		javascript:
+document.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.ctrlKey && (e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S') || e.key === 'F12') {
+    e.preventDefault();
+     }
+});
 		player.addListener('activehotspotchanged', function(event) {
 			if (hotspotTemplates.hasOwnProperty('ht_video_youtube')) {
 				for(var i = 0; i < hotspotTemplates['ht_video_youtube'].length; i++) {
@@ -23408,10 +23443,10 @@ alert("The current view has been copied.");
 					((player.getVariableValue('resp_phone') == false))
 				)
 			) {
-				let pdfInterval_63 = setInterval(() => {
+				let pdfInterval_73 = setInterval(() => {
 					if (skin._popup_pdf__pdf.contentWindow.PDFViewerApplication && skin._popup_pdf__pdf.contentWindow.PDFViewerApplication.initialized && skin._popup_pdf__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._popup_pdf__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._popup_pdf.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_63);
+						clearInterval(pdfInterval_73);
 					}
 				}, 50);
 			}
@@ -23427,10 +23462,10 @@ alert("The current view has been copied.");
 					((player.getVariableValue('resp_phone') == true))
 				)
 			) {
-				let pdfInterval_64 = setInterval(() => {
+				let pdfInterval_74 = setInterval(() => {
 					if (skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_popup_phone.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_64);
+						clearInterval(pdfInterval_74);
 					}
 				}, 50);
 			}
