@@ -144,8 +144,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-359.85</pan>
-            <tilt>0.84</tilt>
+            <pan>-360.03</pan>
+            <tilt>-3.56</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -156,6 +156,7 @@
           <customprops/>
           <polygon/>
           <id>Point11</id>
+          <title>Góc checkin</title>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
           <url>./sliders/goc-checkin/fancybox/index.html</url>
@@ -277,149 +278,90 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-129.45</pan>
+            <tilt>6.05</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point08</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9784.jpg</url>
+          <safeurl>NUOI9784.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-182.73</pan>
+            <tilt>7.38</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point09</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../poster/9-cau-vong-cam-xuc.jpg</url>
+          <safeurl>9-cau-vong-cam-xuc.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-233.89</pan>
+            <tilt>5.27</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point10</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../thong tin tranh/NUOI9774.jpg</url>
+          <safeurl>NUOI9774.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <ggloudproject/>
-      <sounds>
-        <sound>
-          <position>
-            <pan>176.35</pan>
-            <tilt>-8.1</tilt>
-          </position>
-          <videorect>
-            <rotx>-7.88</rotx>
-            <roty>-3.3</roty>
-            <rotz>-0.17</rotz>
-            <fov>43.24</fov>
-            <stretch>99.96</stretch>
-            <dimx>3150</dimx>
-            <dimy>1772</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element01</id>
-          <filename>../poster/9-cau-vong-cam-xuc.jpg</filename>
-          <urlsafefilename>9-cau-vong-cam-xuc.jpg</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-        <sound>
-          <position>
-            <pan>-0.04</pan>
-            <tilt>-5.63</tilt>
-          </position>
-          <videorect>
-            <rotx>-1.75</rotx>
-            <roty>0.92</roty>
-            <rotz>-0.29</rotz>
-            <fov>21.19</fov>
-            <stretch>95.5</stretch>
-            <dimx>7387</dimx>
-            <dimy>9850</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element02</id>
-          <filename>../poster/goc checkin.webp</filename>
-          <urlsafefilename>goc checkin.webp</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-        <sound>
-          <position>
-            <pan>-128.36</pan>
-            <tilt>-6.83</tilt>
-          </position>
-          <videorect>
-            <rotx>-10.75</rotx>
-            <roty>51.17</roty>
-            <rotz>9.38</rotz>
-            <fov>35.04</fov>
-            <stretch>98.24</stretch>
-            <dimx>7660</dimx>
-            <dimy>4402</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element03</id>
-          <filename>../sua/NUOI9784.webp</filename>
-          <urlsafefilename>NUOI9784.webp</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-        <sound>
-          <position>
-            <pan>124.98</pan>
-            <tilt>-6.96</tilt>
-          </position>
-          <videorect>
-            <rotx>-10.49</rotx>
-            <roty>-54.86</roty>
-            <rotz>-9.61</rotz>
-            <fov>33.66</fov>
-            <stretch>98.34</stretch>
-            <dimx>8004</dimx>
-            <dimy>4504</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element06</id>
-          <filename>../sua/NUOI9774.webp</filename>
-          <urlsafefilename>NUOI9774.webp</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-      </sounds>
+      <sounds/>
       <id>node2</id>
     </panorama>
     <panorama>
@@ -600,47 +542,38 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-355.75</pan>
+            <tilt>22.67</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point05</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../poster/banner.jpg</url>
+          <safeurl>banner.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <ggloudproject/>
-      <sounds>
-        <sound>
-          <position>
-            <pan>-0.06</pan>
-            <tilt>3.52</tilt>
-          </position>
-          <videorect>
-            <rotx>0.98</rotx>
-            <roty>-0.02</roty>
-            <rotz>-1.15</rotz>
-            <fov>48.17</fov>
-            <stretch>99.59</stretch>
-            <dimx>1772</dimx>
-            <dimy>1182</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element01</id>
-          <filename>../poster/banner.jpg</filename>
-          <urlsafefilename>banner.jpg</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-      </sounds>
+      <sounds/>
       <animation>
         <sequence/>
       </animation>
@@ -759,8 +692,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-33.27</pan>
-            <tilt>9.89</tilt>
+            <pan>-33.09</pan>
+            <tilt>9.15</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -917,115 +850,90 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-354.71</pan>
+            <tilt>14.1</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point09</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../poster/1-khai-niem-dong-cam.jpg</url>
+          <safeurl>1-khai-niem-dong-cam.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-11.17</pan>
+            <tilt>12.36</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point10</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../poster/2-cac-dang-dong-cam.jpg</url>
+          <safeurl>2-cac-dang-dong-cam.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-24.07</pan>
+            <tilt>11.1</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point11</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../poster/3-cac-bieu-hien-cua-dong-cam.jpg</url>
+          <safeurl>3-cac-bieu-hien-cua-dong-cam.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <ggloudproject/>
-      <sounds>
-        <sound>
-          <position>
-            <pan>4.76</pan>
-            <tilt>-3.8</tilt>
-          </position>
-          <videorect>
-            <rotx>-0.39</rotx>
-            <roty>-8.35</roty>
-            <rotz>-0.3</rotz>
-            <fov>14.56</fov>
-            <stretch>100.65</stretch>
-            <dimx>1575</dimx>
-            <dimy>3544</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element01</id>
-          <filename>../poster/1-khai-niem-dong-cam.jpg</filename>
-          <urlsafefilename>1-khai-niem-dong-cam.jpg</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-        <sound>
-          <position>
-            <pan>-11.51</pan>
-            <tilt>-3.35</tilt>
-          </position>
-          <videorect>
-            <rotx>-5.08</rotx>
-            <roty>-23.38</roty>
-            <rotz>-1.97</rotz>
-            <fov>12.44</fov>
-            <stretch>104.02</stretch>
-            <dimx>1575</dimx>
-            <dimy>3544</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element02</id>
-          <filename>../poster/2-cac-dang-dong-cam.jpg</filename>
-          <urlsafefilename>2-cac-dang-dong-cam.jpg</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-        <sound>
-          <position>
-            <pan>-24.34</pan>
-            <tilt>-2.71</tilt>
-          </position>
-          <videorect>
-            <rotx>-3.9</rotx>
-            <roty>-47.19</roty>
-            <rotz>-2.9</rotz>
-            <fov>11.53</fov>
-            <stretch>94.09</stretch>
-            <dimx>1575</dimx>
-            <dimy>3544</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element03</id>
-          <filename>../poster/3-cac-bieu-hien-cua-dong-cam.jpg</filename>
-          <urlsafefilename>3-cac-bieu-hien-cua-dong-cam.jpg</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-      </sounds>
+      <sounds/>
       <id>node3</id>
     </panorama>
     <panorama>
@@ -1143,8 +1051,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-331.31</pan>
-            <tilt>-8.62</tilt>
+            <pan>-331.02</pan>
+            <tilt>-10.45</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1236,11 +1144,11 @@
           <customprops/>
           <polygon/>
           <id>Point04</id>
-          <title>Lời tâm sự</title>
+          <title>Lời chưa nói</title>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>./sliders/loi-tam-su/fancybox/index.html</url>
-          <safeurl>index-3.html</safeurl>
+          <url>./sliders/loi-chua-noi/fancybox/index.html</url>
+          <safeurl>index-7.html</safeurl>
           <target>_self</target>
           <type>point</type>
           <distance>0</distance>
@@ -1277,115 +1185,90 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-359.77</pan>
+            <tilt>17.16</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point08</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../poster/5-cau-truc-ki-nang-ra-quyet-dinh.jpg</url>
+          <safeurl>5-cau-truc-ki-nang-ra-quyet-dinh.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-345.33</pan>
+            <tilt>15.38</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point09</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../poster/6-bieu-hien-ki-nang-ra-quyet-dinh.jpg</url>
+          <safeurl>6-bieu-hien-ki-nang-ra-quyet-dinh.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-335.06</pan>
+            <tilt>12.96</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point10</id>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../poster/7-cac-yeu-to-anh-huong-den-ki-nang-quyet-dinh.jpg</url>
+          <safeurl>7-cac-yeu-to-anh-huong-den-ki-nang-quyet-dinh.jpg</safeurl>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <ggloudproject/>
-      <sounds>
-        <sound>
-          <position>
-            <pan>-0.18</pan>
-            <tilt>-0.86</tilt>
-          </position>
-          <videorect>
-            <rotx>-2.72</rotx>
-            <roty>23.8</roty>
-            <rotz>0.1</rotz>
-            <fov>14.84</fov>
-            <stretch>98.05</stretch>
-            <dimx>1575</dimx>
-            <dimy>3544</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element01</id>
-          <filename>../poster/5-cau-truc-ki-nang-ra-quyet-dinh.jpg</filename>
-          <urlsafefilename>5-cau-truc-ki-nang-ra-quyet-dinh.jpg</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-        <sound>
-          <position>
-            <pan>14.04</pan>
-            <tilt>-0.95</tilt>
-          </position>
-          <videorect>
-            <rotx>-5.31</rotx>
-            <roty>40.46</roty>
-            <rotz>1.83</rotz>
-            <fov>13.01</fov>
-            <stretch>96.48</stretch>
-            <dimx>3780</dimx>
-            <dimy>8504</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element02</id>
-          <filename>../poster/6-bieu-hien-ki-nang-ra-quyet-dinh.jpg</filename>
-          <urlsafefilename>6-bieu-hien-ki-nang-ra-quyet-dinh.jpg</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-        <sound>
-          <position>
-            <pan>24.07</pan>
-            <tilt>-0.69</tilt>
-          </position>
-          <videorect>
-            <rotx>-4.32</rotx>
-            <roty>52.73</roty>
-            <rotz>1.68</rotz>
-            <fov>10.45</fov>
-            <stretch>101.08</stretch>
-            <dimx>1575</dimx>
-            <dimy>3544</dimy>
-          </videorect>
-          <type>image</type>
-          <id>Element03</id>
-          <filename>../poster/7-cac-yeu-to-anh-huong-den-ki-nang-quyet-dinh.jpg</filename>
-          <urlsafefilename>7-cac-yeu-to-anh-huong-den-ki-nang-quyet-dinh.jpg</urlsafefilename>
-          <mode>0</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>0</startmutedmobile>
-          <level>1</level>
-          <loop>1</loop>
-          <copyfile>1</copyfile>
-          <clickmode>popout</clickmode>
-          <popbackmode>stop</popbackmode>
-          <hidepinned>1</hidepinned>
-          <handcursor>1</handcursor>
-        </sound>
-      </sounds>
+      <sounds/>
       <id>node4</id>
     </panorama>
   </tour>
