@@ -42,7 +42,7 @@
           <tilt>-90</tilt>
           <fov>170</fov>
         </flyinstart>
-        <pannorth>0</pannorth>
+        <pannorth>11.3548</pannorth>
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>stereo</flyinprojection>
@@ -54,6 +54,11 @@
         <tags>render</tags>
         <title>Giữa phòng</title>
         <altitude>-3048</altitude>
+        <floorplancoordinates>
+          <floorplanid>FloorPlan01</floorplanid>
+          <x>894</x>
+          <y>794</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -409,6 +414,11 @@
         <tags>render</tags>
         <title>Đôi lời gửi gắm</title>
         <altitude>-3048</altitude>
+        <floorplancoordinates>
+          <floorplanid>FloorPlan01</floorplanid>
+          <x>522</x>
+          <y>604</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -624,8 +634,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-54.15</pan>
-            <tilt>-4.76</tilt>
+            <pan>-52.72</pan>
+            <tilt>-4.85</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -732,6 +742,11 @@
         <tags>render</tags>
         <title>Lời chưa nói</title>
         <altitude>-3048</altitude>
+        <floorplancoordinates>
+          <floorplanid>FloorPlan01</floorplanid>
+          <x>1215</x>
+          <y>870</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -1083,6 +1098,11 @@
         <tags>render</tags>
         <title>Góc nhìn khác</title>
         <altitude>-3048</altitude>
+        <floorplancoordinates>
+          <floorplanid>FloorPlan01</floorplanid>
+          <x>1051</x>
+          <y>244</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -1279,6 +1299,11 @@
         <tags>render</tags>
         <title>Bàn trưng bày</title>
         <altitude>-3048</altitude>
+        <floorplancoordinates>
+          <floorplanid>FloorPlan01</floorplanid>
+          <x>1381</x>
+          <y>752</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
